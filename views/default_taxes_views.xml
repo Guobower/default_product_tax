@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    
+    <record model="ir.ui.view" id="prodcut_taxes_tree">
+      <field name="name">product_taxes tree</field>
+      <field name="model">product.taxes</field>
+      <field name="arch" type="xml">
+            <tree editable="top" delete="false" create="false">
+                <field name="tax_ids" widget="many2many_tags"/>
+                <field name="supplier_tax_ids" widget="many2many_tags"/>
+            </tree>
+      </field>
+    </record>
+    
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="product_taxes_action">
+        <field name="name">Product Taxes</field>
+        <field name="res_model">product.taxes</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_ids" eval="[(5, 0, 0), (0, 0, {'view_mode': 'tree', 'view_id': ref('prodcut_taxes_tree')})]"/>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to define the default taxes.
+            </p><p>
+                This taxes will be as default taxes of your products.
+            </p>
+        </field>
+    </record>
+    
+    <menuitem
+        id="menu_product_taxes"
+        name="Default Taxes"
+        action="product_taxes_action"
+        parent="sale.prod_config_main"
+        sequence="7"
+        groups="base.group_no_one"/>
+
+  </data>
+
+</odoo>

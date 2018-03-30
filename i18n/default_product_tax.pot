@@ -1,0 +1,97 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* default_product_tax
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0-20180324\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-30 11:17+0000\n"
+"PO-Revision-Date: 2018-03-30 11:17+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: default_product_tax
+#: model:ir.actions.act_window,help:default_product_tax.product_taxes_action
+msgid "Click to define the default taxes."
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.ui.menu,name:default_product_tax.menu_product_taxes
+msgid "Default Taxes"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model,name:default_product_tax.model_product_taxes
+msgid "Default multicompany taxes"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_id
+msgid "ID"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model,name:default_product_tax.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.actions.act_window,name:default_product_tax.product_taxes_action
+msgid "Product Taxes"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model,name:default_product_tax.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_tax_ids
+msgid "Sale taxes"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.model.fields,field_description:default_product_tax.field_product_taxes_supplier_tax_ids
+msgid "Supplier taxes"
+msgstr ""
+
+#. module: default_product_tax
+#: model:ir.actions.act_window,help:default_product_tax.product_taxes_action
+msgid "This taxes will be as default taxes of your products."
+msgstr ""
+
